@@ -205,7 +205,7 @@ color: goldenrod;
     .optimize{
         align-items: center;
         width: 300px;
-        margin:0 0px 0 30px;
+        margin:0 0px 0 10px;
         background: none;
     }
     .hr-line{
@@ -221,4 +221,19 @@ color: goldenrod;
     .container-header li{
         color: black;
     }
-  } 
+    .blogs{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .blog{
+        align-items: center;
+    }
+    .tumbnail{
+        align-items: center;
+    }
+    .last-section{
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
