@@ -1,0 +1,224 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+
+/* Common Style */
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.last-section{
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 50px 50px 50px;
+    background-position: center;
+}
+.optimize{
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    margin: 20px 50px 50px 50px;
+    background-position: center;
+}
+.primary-title, header{
+    color: #562EFF;
+    font-size: 24px;
+    padding:30px 0 0px 30px;
+}
+
+.primary-title-2{
+    color: #562EFF;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+/* ----------------------/
+ / This is Header Style
+------------------------*/
+.container-header{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+    padding-left: 30px;
+}
+.idea{
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+ul img {
+    padding-right: 30px;
+}
+/* Header End */
+/* Top Player Style  */
+.player-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:0 20px 20px 20px;
+}
+.player-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.player-img img {
+    width: 70px;
+    padding: 20px;
+}
+/* End of  top player */
+.hr-line{
+    margin-top: 20px;
+    size: 2px;
+    color: gray;
+    margin: 0px 100px;
+    width: 900px;
+}
+/*------------------------------------------------ 
+This is Blog Style/////////////////////////
+-------------------------- */
+.blogs{
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+}
+.blog{
+    display: flex;   
+}
+.tumbnail{
+   width: 224px;
+   height: 127px;
+   padding: 30px;
+}
+.blog-description{
+    margin-top: 30px;
+    align-items: center;
+}
+.by{
+    color: #9F9F9F; 
+    font-size: 16px;
+    padding-right: 10px;
+}
+.author{
+    
+}
+/* End of blog */
+
+
+
+/* -------------------
+ Course Section
+ --------------------------- */
+ .courses{
+    display: flex;
+ }
+ .rating{
+     display: flex;
+     align-items: center;
+     gap: 10px  ;
+ }
+
+ .rating img{ 
+      width: 20px;
+      align-items: center;
+ }
+
+ .course {
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    width: 265px;
+    border-radius: 10px;
+    height: 300px;w
+    margin: 20px;
+    padding: 20px;
+ }
+
+ .course-thumbnail{
+    width: 266px;
+    height: 141px;
+}
+
+.good{
+color: goldenrod;
+}
+.bad{
+    color: lightgray;
+}
+
+.time{
+   border:1px red solid;
+   padding: 5px;
+   margin: 5px;
+   border-radius: 50px;
+   background-color:#f8bbc2;
+   
+}
+
+.last-time{
+    display: flex;
+}
+
+.last-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    
+    .primary-title{
+        align-items: center;
+        text-align: center;
+    }
+    .player-container{
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .optimize{
+        align-items: center;
+        width: 300px;
+        margin:0 0px 0 30px;
+        background: none;
+    }
+    .hr-line{
+        width: 100px;
+    }
+    .container-header{
+        width: 100%;
+        background:none;
+    }
+    .logo{
+        display: none;
+    }
+    .container-header li{
+        color: black;
+    }
+  } 
